@@ -1,0 +1,11 @@
+<div class="wrapper d-sm-flex">
+  <div class="leftSidebar d-none d-md-block">
+    <app-sidebar></app-sidebar>
+  </div>
+  <div class="d-block d-md-none mobileVersion">
+    <app-sidebar [data]="showNav"></app-sidebar>
+  </div>
+  <div class="rightBodyContainer">
+    <app-body-container></app-body-container>
+  </div>
+</div>

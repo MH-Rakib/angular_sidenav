@@ -1,0 +1,82 @@
+.sidebar {
+  background-color: #333c43;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 20px 10px;
+}
+
+.toggleSidebar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.toggleSidebar span {
+  color: #eee;
+  font-size: 36px;
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+.sidebarHeading {
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.headingIcon span {
+  font-size: 30px;
+}
+.sidebarHeading h2 {
+  font-size: 28px;
+  margin-left: 10px;
+}
+
+.menuItems {
+  background-color: transparent;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 2px;
+  transition: 0.3s all ease-in-out;
+}
+
+.menuItems .icon {
+  color: #cccccc;
+  transition: 0.3s all ease-in-out;
+}
+
+.menuItems .text {
+  width: 170px;
+  color: #cccccc;
+  font-weight: 600;
+  margin-left: 20px;
+  transition: 0.3s all ease-in-out;
+}
+
+.blank {
+  display: none;
+  transition: 0.3s all ease-in-out;
+}
+
+.menuItems:hover {
+  background-color: #51575b;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.menuItems:hover span {
+  color: #fff !important;
+}
+
+.menuItems:hover p {
+  color: #fff !important;
+}
+
+.navController {
+  position: absolute;
+  top: 0;
+  left: 110%;
+}

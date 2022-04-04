@@ -1,0 +1,150 @@
+<div class="sidebar">
+  <div (click)="toggleText()" class="toggleSidebar">
+    <span class="material-icons d-none d-md-block"> list </span>
+
+    <span
+      *ngIf="data"
+      class="material-icons d-block d-md-none"
+      style="color: blue"
+    >
+      list
+    </span>
+    <span
+      *ngIf="data"
+      class="material-icons d-block d-md-none navController"
+      style="color: blue"
+    >
+      list
+    </span>
+  </div>
+
+  <div class="sidebarHeading d-flex align-items-center justify-content-start">
+    <div class="headingIcon">
+      <span class="material-icons text-success">alarm</span>
+    </div>
+
+    <div *ngIf="showText" class="text">
+      <h2 class="text-white">DeskTime</h2>
+    </div>
+  </div>
+
+  <div class="menuItems d-flex align-items-center justify-content-center">
+    <div class="icon">
+      <span class="material-icons"> leaderboard </span>
+    </div>
+
+    <div *ngIf="showText" class="text">
+      <p>Dashboard</p>
+    </div>
+  </div>
+
+  <div class="menuItems d-flex align-items-center justify-content-center">
+    <div class="icon">
+      <span class="material-icons"> personal_video </span>
+    </div>
+
+    <div *ngIf="showText" class="text">
+      <p>My DeskTime</p>
+    </div>
+  </div>
+
+  <div class="menuItems d-flex align-items-center justify-content-center">
+    <div class="icon">
+      <span class="material-icons"> groups </span>
+    </div>
+
+    <div *ngIf="showText" class="text">
+      <p>Team Members</p>
+    </div>
+  </div>
+
+  <div class="menuItems d-flex align-items-center justify-content-center">
+    <div class="icon">
+      <span class="material-icons"> account_circle </span>
+    </div>
+
+    <div *ngIf="showText" class="text">
+      <p>Colleagues</p>
+    </div>
+  </div>
+
+  <div class="menuItems d-flex align-items-center justify-content-center">
+    <div class="icon">
+      <span class="material-icons"> task </span>
+    </div>
+
+    <div *ngIf="showText" class="text">
+      <p>Projects</p>
+    </div>
+  </div>
+
+  <div class="menuItems d-flex align-items-center justify-content-center">
+    <div class="icon">
+      <span class="material-icons"> work </span>
+    </div>
+
+    <div *ngIf="showText" class="text">
+      <p>Work Schedules</p>
+    </div>
+  </div>
+
+  <div class="menuItems d-flex align-items-center justify-content-center">
+    <div class="icon">
+      <span class="material-icons"> business_center </span>
+    </div>
+
+    <div *ngIf="showText" class="text">
+      <p>Booking</p>
+    </div>
+  </div>
+
+  <div class="menuItems d-flex align-items-center justify-content-center">
+    <div class="icon">
+      <span class="material-icons"> date_range </span>
+    </div>
+
+    <div *ngIf="showText" class="text">
+      <p>Clalander</p>
+    </div>
+  </div>
+
+  <div class="menuItems d-flex align-items-center justify-content-center">
+    <div class="icon">
+      <span class="material-icons"> description </span>
+    </div>
+
+    <div *ngIf="showText" class="text">
+      <p>Invoicing</p>
+    </div>
+  </div>
+
+  <div class="menuItems d-flex align-items-center justify-content-center">
+    <div class="icon">
+      <span class="material-icons"> donut_small </span>
+    </div>
+
+    <div *ngIf="showText" class="text">
+      <p>Reports</p>
+    </div>
+  </div>
+
+  <div class="menuItems d-flex align-items-center justify-content-center">
+    <div class="icon">
+      <span class="material-icons"> file_copy </span>
+    </div>
+
+    <div *ngIf="showText" class="text">
+      <p>Exports</p>
+    </div>
+  </div>
+
+  <div class="menuItems d-flex align-items-center justify-content-center">
+    <div class="icon">
+      <span class="material-icons"> settings </span>
+    </div>
+
+    <div *ngIf="showText" class="text">
+      <p>Settings</p>
+    </div>
+  </div>
+</div>

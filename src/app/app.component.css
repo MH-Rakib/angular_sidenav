@@ -1,0 +1,20 @@
+.wrapper {
+}
+.rightBodyContainer {
+  overflow: hidden;
+  flex-basis: 100%;
+}
+.leftSidebar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+
+.mobileVersion {
+  position: absolute;
+  top: 0;
+  left: -264px;
+  height: 100vh;
+  z-index: 999;
+}

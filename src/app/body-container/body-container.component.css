@@ -1,0 +1,83 @@
+.bodyContainer {
+}
+
+.topOffer {
+  background: linear-gradient(270.43deg, #734b6d -2.04%, #42275a 103.19%);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.topOffer h3 {
+  display: block;
+}
+
+.searchbar {
+  padding: 6px 20px;
+  border: none;
+  background-color: #42275a29;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+.bodyContainerHeaderIcon {
+  font-size: 24px;
+  color: #42275a85;
+  margin-left: 20px;
+}
+
+.bodyContainerHeaderText {
+  margin-left: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #42275a85;
+  text-align: right;
+}
+
+.mydeskTime {
+  background-color: #ebecec;
+  padding: 20px 5px;
+}
+
+.mydeskTime h3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #42275a;
+}
+
+.selectTime span {
+  font-size: 26px;
+  color: #42275a85;
+  padding-right: 30px;
+}
+.selectTime p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #42275a85;
+}
+
+.cards {
+  background-color: #ebecec;
+}
+
+.card {
+  padding: 25px 15px;
+  border-radius: 4px;
+  background-color: #fff;
+  min-height: 170px;
+  box-shadow: 0 0 10px -3px #ae9dbd;
+  margin-bottom: 25px;
+}
+
+.card p {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #42275a;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #42275a;
+}
