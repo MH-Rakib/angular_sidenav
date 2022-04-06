@@ -3,7 +3,13 @@
     <app-sidebar></app-sidebar>
   </div>
   <div class="d-block d-md-none mobileVersion">
-    <app-sidebar [data]="showNav"></app-sidebar>
+    <app-sidebar [navOpen]="showNav"></app-sidebar>
+    <!-- <span
+      class="material-icons d-block d-md-none toggleMobileSidebar"
+      style="color: rgb(26, 185, 230)"
+    >
+      list
+    </span> -->
   </div>
   <div class="rightBodyContainer">
     <app-body-container></app-body-container>

@@ -1,7 +1,9 @@
 .wrapper {
 }
 .rightBodyContainer {
-  overflow: hidden;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
   flex-basis: 100%;
 }
 .leftSidebar {
@@ -11,10 +13,31 @@
   height: 100vh;
 }
 
+.rightBodyContainer::-webkit-scrollbar {
+  width: 8px;
+  z-index: 999999999;
+}
+
+.rightBodyContainer::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+.rightBodyContainer::-webkit-scrollbar-thumb {
+  background-color: #ac8bc8;
+}
+
 .mobileVersion {
   position: absolute;
   top: 0;
-  left: -264px;
+  left: 0px;
   height: 100vh;
   z-index: 999;
+}
+
+.toggleMobileSidebar {
+  position: absolute;
+  top: 0;
+  left: 400px;
+  font-size: 34px;
+  z-index: 99999;
 }

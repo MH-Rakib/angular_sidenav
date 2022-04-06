@@ -6,19 +6,13 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
   styleUrls: ['./sidebar.component.css'],
 })
 export class SidebarComponent implements OnInit {
-  @Input() data: boolean | undefined;
-  @Output() data2: EventEmitter<boolean> = new EventEmitter<boolean>();
+  @Input() navOpen: boolean | undefined;
 
   constructor() {}
 
   showText: boolean = true;
 
   ngOnInit(): void {}
-
-  setShowMobileNav() {
-    this.data = !this.data;
-    this.data2.emit(this.data);
-  }
 
   toggleText() {
     this.showText = !this.showText;
